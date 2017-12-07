@@ -20,6 +20,7 @@ module.exports = {
     devServer: {
         contentBase: "./dist",//本地服务器所加载的页面所在的目录
         historyApiFallback: true,//不跳转
+        host: '192.168.155.1',
         inline: true//实时刷新
     },
 
